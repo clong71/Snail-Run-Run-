@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Snail Run</title>
+    <style>
+        body {
+            background: #FEDCC3;
+            margin: 0;
+        }
+        
+        #container {
+            display: block;
+            image-rendering: pixelated;
+            text-align: center;
+            position: relative;
+            z-index: 0;
+        }
+        
+        #buttons {
+            width: 198px;
+            position: relative;
+            z-index: 1;
+            margin: -550px 0px 0px 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="image" style="max-height:100vh;"><img src="snailOpen.png" style="height: 100vh; weight: auto;"></div>
+        <audio controls autoplay style="margin-top:10px;">
+            <source src= "SnailFast.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div id="buttons">
+            <div style="height:55px;width:198px; float:left;"><a href="rules.html"><img src="button1.png" style="height:55px;width:198px;"></a></div>
+            <div style="height:55px;width:198px; float:left; margin-top:20px;"><a href="game.html"><img src="button2.png" style="height:55px;width:198px;"></a>
+        </div>
+    </div>
+</body>
+</html>
