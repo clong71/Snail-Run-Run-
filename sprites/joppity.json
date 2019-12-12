@@ -1,0 +1,41 @@
+{
+    "imageURL": "/img/snailChars.png",
+
+    "frames": [
+        {
+            "name": "walk-1",
+            "rect": [192, 0, 16, 16]
+        },
+        {
+            "name": "walk-2",
+            "rect": [176, 0, 16, 16]
+        },
+        {
+            "name": "hiding",
+            "rect": [160, 0, 16, 16]
+        },
+        {
+            "name": "hiding-with-legs",
+            "rect": [144, 0, 16, 16]
+        }
+    ],
+
+    "animations": [
+        {
+            "name": "walk",
+            "frameLen": 0.15,
+            "frames": [
+                "walk-1",
+                "walk-2"
+            ]
+        },
+        {
+            "name": "wake",
+            "frameLen": 0.15,
+            "frames": [
+                "hiding-with-legs",
+                "hiding"
+            ]
+        }
+    ]
+}
